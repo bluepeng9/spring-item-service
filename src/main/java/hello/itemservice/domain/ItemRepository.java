@@ -31,7 +31,7 @@ public class ItemRepository {
         Item findItem = findById(itemId);
         findItem.setItemName(updateParam.getItemName());
         findItem.setPrice(updateParam.getPrice());
-        findItem.setPrice(updateParam.getQuantity());
+        findItem.setQuantity(updateParam.getQuantity());
     }
 
     public void clearStore() {
